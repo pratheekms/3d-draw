@@ -11,7 +11,7 @@ import android.util.Log;
 
 public class Send extends AsyncTask<Float, Void, Void> {
 	
-	public static String serverIp = "192.168.101.153";
+	public static String serverIp = "10.127.127.1";
 	public static int serverPort = 8888;
 	Socket s;
 	OutputStream ps;
